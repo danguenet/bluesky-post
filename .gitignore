@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# Logs
+logs/
+*.log
+
+# Credentials and sensitive files
+/bluesky/config.json
+
+# Environment
+.env
+.env.local
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Package links
+.idea/
+.vscode/
+
+# Build output
+dist/
+coverage/
+
+# Temporary files
+*.tmp
+*.swp

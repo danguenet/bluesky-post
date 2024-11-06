@@ -1,0 +1,17 @@
+{
+  "name": "bluesky-post",
+  "version": "1.0.0",
+  "description": "CLI tool for posting on Bluesky",
+  "main": "index.js",
+  "author": "Dan Guenet",
+  "license": "MIT",
+  "bin": {
+    "bluesky-post": "./usr/bin/index.js"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.13.14",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  }
+}
